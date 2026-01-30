@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,13 +13,20 @@
     <!--<link rel="stylesheet" href="css/index.css" />-->
   </head>
   <body>
-    <header class="header">
+    <header class="site-header">
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="global.header-nav.partial.html"
+        data-hx-get="global.header.partial.html"
       ></nav>
     </header>
+    <aside class="side-bar">
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.side-bar.partial.html"
+      ></nav>
+    </aside>
     <main class="main"></main>
     <footer class="footer"></footer>
     <!--<script src="js/index.js"></script>-->
