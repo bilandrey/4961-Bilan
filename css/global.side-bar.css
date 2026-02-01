@@ -1,0 +1,24 @@
+.side-bar_nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100vh;
+  background: var(--background-main-color);
+  color: var(--inactive-color);
+
+  z-index: 1000;
+}
+
+/* overlay: cover the page except the sidebar (treat as always-open) */
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 230px; /* match the sidebar width */
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 800;
+  opacity: 1;
+  pointer-events: auto;
+}

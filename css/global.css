@@ -13,6 +13,7 @@
 :root {
     --background-main-color: #FFFFFF;
     --background-secondary-color: #F5F7FA;
+    --inactive-color: #B1B1B1;
     --search-text-color: #8BA3CB;
     --main-font-family: "Inter";
     --icon-font-family: "Outfit";
