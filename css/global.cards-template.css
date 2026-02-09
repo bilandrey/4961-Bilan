@@ -1,0 +1,56 @@
+.card-template {
+  height: 170px;
+  width: 265px;
+  background: linear-gradient(135deg, #4c49ed, #0a06f4);
+  border-radius: 15px;
+  margin: 15px 20px 20px 25px;
+}
+.card-template__top,
+.card-template__middle,
+.card-template__bottom
+ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-template__top {
+  padding: 17px 20px 13px 20px;
+}
+.card-template__middle {
+  padding: 10px 52px 16px 20px;
+}
+.card-template__bottom {
+  padding: 16px 17px 17px 20px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15), rgba(255,255,255,0));
+}
+.card-template-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.card-template-text {
+  color: var(--background-main-color);
+  font-family: var(--card-font-family), sans-serif;
+}
+.card-template__balance {
+  font-size: 11px;
+  font-weight: 400;
+}
+.card-template__amount {
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-template__holder,
+.card-template__expiry {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--faded-text-color);
+}
+.card-template__holder-name,
+.card-template__expiry-date {
+  font-size: 13px;
+  font-weight: 600;
+}
+.card-template__number {
+  font-size: 15px;
+  font-weight: 600;
+}

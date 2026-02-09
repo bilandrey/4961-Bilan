@@ -27,7 +27,13 @@
         data-hx-get="global.side-bar.partial.html"
       ></nav>
     </aside>
-    <main class="main"></main>
+    <main class="main-body">
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.cards.partial.html"
+      ></section>
+    </main>
     <footer class="footer"></footer>
     <!--<script src="js/index.js"></script>-->
   </body>

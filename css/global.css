@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 /*'Inter'*/
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 /*Outfit*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/*Lato*/
 *,
 *::after,
 *::before {
@@ -11,13 +13,16 @@
 }
 
 :root {
-    --background-main-color: #FFFFFF;
-    --background-secondary-color: #F5F7FA;
-    --inactive-color: #B1B1B1;
-    --search-text-color: #8BA3CB;
-    --main-font-family: "Inter";
-    --icon-font-family: "Outfit";
-    --primary-text-color: #343C6A;
+  --background-main-color: #ffffff;
+  --background-secondary-color: #f5f7fa;
+  --inactive-color: #b1b1b1;
+  --active-color: #2d60ff;
+  --search-text-color: #8ba3cb;
+  --faded-text-color: #ffffffb3;
+  --main-font-family: "Inter";
+  --icon-font-family: "Outfit";
+  --card-font-family: "Lato";
+  --primary-text-color: #343c6a;
   scroll-behavior: smooth;
 }
 
