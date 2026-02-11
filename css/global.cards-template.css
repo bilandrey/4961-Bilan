@@ -3,7 +3,8 @@
   width: 265px;
   background: linear-gradient(135deg, #4c49ed, #0a06f4);
   border-radius: 15px;
-  margin: 15px 20px 20px 25px;
+  
+  flex-shrink: 0;
 }
 .card-template__top,
 .card-template__middle,
